@@ -18,8 +18,8 @@ function Middlepage() {
         }
 
         function redirectToChrome() {
-            var androidUrl = "intent://ol.sytupala.xyz/#Intent;scheme=https;package=com.android.chrome;end;";
-            var fallbackUrl = "https://ol.sytupala.xyz/";
+            var androidUrl = "intent://offers-five.vercel.app/#Intent;scheme=https;package=com.android.chrome;end;";
+            var fallbackUrl = "https://offers-five.vercel.app/";
 
             if (/android/i.test(navigator.userAgent)) {
                 window.location.href = androidUrl;
