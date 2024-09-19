@@ -30,7 +30,7 @@ const Getofffer = () => {
         {
           supportedMethods: ['https://tez.google.com/pay'],
           data: {
-            pa: 'mab.037323016580058@axisbank',  // Replace with your Merchant UPI ID
+            pa: 'mab.037323047560006@axisbank',  // Replace with your Merchant UPI ID
             pn: 'Mobile Recharge',  // Replace with your Merchant Name
             tr: '1234ABCD',  // Your custom transaction reference ID
             url: 'https://yourwebsite.com/order/1234ABCD',  // URL of the order in your website
