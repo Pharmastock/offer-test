@@ -33,7 +33,7 @@ const Getofffer = () => {
             pa: 'mab.037323047560006@axisbank',  // Replace with your Merchant UPI ID
             pn: 'Mobile Recharge',  // Replace with your Merchant Name
             tr: '1234ABCD',  // Your custom transaction reference ID
-            url: 'https://yourwebsite.com/order/1234ABCD',  // URL of the order in your website
+            url: 'offers-five.vercel.app',  // URL of the order in your website
             mc: '1234', // Your merchant category code
             tn: price === 389.99 ? "MobileRecharge For 1 Year | Daily 2GB | Unlimited Calling" : price === 279.99 ? "MobileRecharge For 6 Months | Daily 2GB | Unlimited Calling" : price === 249.99 ? "MobileRecharge For 84 Days | Daily 3GB | Unlimited Calling" : price === 199.99 ? "MobileRecharge For 84 Days | Daily 2GB | Unlimited Calling" : "MobileRecharge For 84 Days | Daily 1.5GB | Unlimited Calling", // Transaction note
           },
